@@ -1,6 +1,6 @@
 const Discord = require("discord.js")
 const bot = new Discord.Client();
-const prefix = ("Sf!")
+const PREFIX = ("Sf!")
 
 client.on('message', msg => {
   if(msg.content[0] === PREFIX) {
